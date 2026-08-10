@@ -47,6 +47,8 @@ Greenlight Runtime is in the design and repository-foundation stage. The README 
 
 Canonical coding-agent instructions live in `.rulesync/rules/` and generate tool-native files for Codex and Claude Code.
 
+Requires Node.js 24 and pnpm 11.20.0.
+
 ```bash
 pnpm install
 pnpm rules:generate
