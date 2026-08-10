@@ -28,4 +28,3 @@ Greenlight Runtime is a local-first control plane for AI coding agents. It runs 
 - Edit canonical agent instructions only in `.rulesync/rules/`.
 - Regenerate tool-native instructions with `pnpm rules:generate`.
 - Verify generated instructions with `pnpm rules:check` and `pnpm rules:doctor`.
-- Keep the approved design in `docs/superpowers/specs/2026-08-10-greenlight-runtime-design.md` consistent with architectural changes.

@@ -37,7 +37,7 @@ Every transition -> SQLite event log -> SSE timeline -> Review evidence
 
 The trusted Go service owns model calls, policy, Git, filesystem access, command execution, persistence, and redaction. The TypeScript web application is an interface over the local HTTP and event APIs; it never touches repositories directly.
 
-See the [approved design](docs/superpowers/specs/2026-08-10-greenlight-runtime-design.md) for the complete product boundary and acceptance criteria.
+The architecture and safety boundaries above define the current product scope.
 
 ## Project status
 
