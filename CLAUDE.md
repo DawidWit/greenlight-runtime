@@ -25,6 +25,7 @@ Greenlight Runtime is a local-first control plane for AI coding agents. It runs 
 
 ## Repository workflow
 
+- Never create or commit a `docs/` directory. Keep planning and design documents outside the repository; root documentation such as `README.md` remains allowed.
 - Edit canonical agent instructions only in `.rulesync/rules/`.
 - Regenerate tool-native instructions with `pnpm rules:generate`.
 - Verify generated instructions with `pnpm rules:check` and `pnpm rules:doctor`.
