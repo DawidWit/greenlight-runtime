@@ -82,6 +82,7 @@ Create `package.json` with exactly:
 Create `.gitignore` with:
 
 ```gitignore
+.worktrees/
 node_modules/
 coverage/
 dist/
@@ -654,4 +655,3 @@ gh-axi run list --repo=DawidWit/greenlight-runtime
 ```
 
 Expected: the repository is public with the approved description, and the `Rulesync` workflow completes successfully for the pushed `main` commit.
-
