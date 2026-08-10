@@ -1,0 +1,16 @@
+{
+  "name": "greenlight-runtime",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Local-first control plane for AI coding agents with isolated workspaces, approval gates, and auditable evidence.",
+  "license": "MIT",
+  "packageManager": "pnpm@11.20.0",
+  "scripts": {
+    "rules:generate": "rulesync generate",
+    "rules:check": "rulesync generate --check",
+    "rules:doctor": "rulesync doctor"
+  },
+  "devDependencies": {
+    "rulesync": "16.9.1"
+  }
+}

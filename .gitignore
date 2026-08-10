@@ -1,1 +1,15 @@
 .worktrees/
+node_modules/
+coverage/
+dist/
+
+.env
+.env.*
+!.env.example
+
+*.db
+*.db-shm
+*.db-wal
+
+rulesync.local.jsonc
+.DS_Store
